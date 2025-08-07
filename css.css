@@ -1,0 +1,92 @@
+.container{
+    background-color: #1f2937;
+    height: 400px;
+    margin: 0;
+    padding: 20%;
+    width: 100%;
+    padding: 16px;
+}
+.top {
+  height: 60px;
+  display: flex;
+  padding-left: 10%;
+  justify-content:space-between; /* Push logo left, nav right */
+  align-items: center;            /* Vertical alignment */
+  gap: 8px;
+  padding-bottom: 5%;
+}
+.logo{
+    font-weight: bolder;
+    color: #f9faf8;
+    font-size: 24px;
+    width: 200px;
+}
+body {
+    font-family: 'Roboto';
+    margin : 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.hlcon{
+    display: flex;
+    gap:20px;
+    padding-right: 10%;
+    justify-content: flex-end; 
+}
+
+.hl{
+    width: 140px;
+    font-size: 18px;
+    color: #E5E7EB;
+    cursor:pointer;
+}
+.main{
+    padding-left: 10%;
+    padding-right: 10%;
+    margin-bottom: 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.textmain{
+    width: 50%;
+}
+.tittle{
+    font-size: 48px;
+    color: #f9faf8;
+    font-weight: bolder;
+    border: 8px;
+    margin:4px;
+}
+
+.text{
+    font-size: 18px;
+    color: #E5E7EB;
+    margin:4px;
+}
+
+.signup1{
+    background-color: #3882F6;
+    width: 100px;
+    height: 25px;
+    display: flex;
+    margin-top: 2px;
+    padding-top: 2px;
+    justify-content: center;
+    font-weight: bold;
+    color: #E5E7EB;
+    font-size: 18px;
+    margin: 4px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.image-placeholder{
+    background-color: #E5E7EB;
+    height: 206.5px;
+    width: 400px;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
