@@ -59,10 +59,16 @@ body {
     margin:4px;
 }
 
-.text{
+.text ,
+.stext{
     font-size: 18px;
-    color: #E5E7EB;
+    color: #868686;
     margin:4px;
+}
+
+.stext{
+    text-align: center;
+    width: 198px;
 }
 
 .signup1{
@@ -76,9 +82,10 @@ body {
     font-weight: bold;
     color: #E5E7EB;
     font-size: 18px;
-    margin: 4px;
+    margin: 8px;
     border-radius: 10px;
     cursor: pointer;
+
 }
 
 .image-placeholder{
@@ -89,4 +96,39 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.container2{
+    background-color: #ffffff;
+    height: 400px;
+    margin: 0;
+    padding: 20%;
+    width: 100%;
+    padding: 16px;
+}
+
+.head{
+    padding-top: 1%;
+    display: flex;
+    justify-content: center;
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: bolder;
+}
+
+.subtextcon{
+    gap:10px;
+    display :flex;
+    justify-content: center;
+    padding-left: 10%;
+    padding-right: 10%;
+    margin-top: 60px;
+}
+
+.cube{
+    border-radius: 25px;
+  border: 4px solid #3882F6;
+  padding: 20px;
+  width: 150px;
+  height: 150px;
 }
