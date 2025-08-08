@@ -146,8 +146,8 @@ body {
 }
 
 .boxc3{
-    margin-left: 10%;
-    margin-right: 10%;
+    margin-left: 20%;
+    margin-right: 20%;
 
 }
 
@@ -161,4 +161,70 @@ body {
     color: #1F2937;
     display: flex;
     justify-content: flex-end;
+}
+
+.container4{
+    background-color: #ffffff;
+    height: 350px;
+    margin: 0;
+    padding: 20%;
+    width: 100%;
+    padding: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.attention{
+    width: 100%;
+    height: 150px;
+    margin-left: 10%;
+    margin-right: 10%;
+    background-color: #3882F6;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.signup2{
+    margin-right: 10%;
+    font-size: 24px;
+    font-weight: bold;
+    color: #ffffff;
+    height: 50px;
+    width: 150px;
+    border: 4px solid #ffffff;
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.Call{
+    margin-left: 10%;
+}
+
+.action{
+    font-size: 24px;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.subtext1{
+    color:#ffffff;
+}
+
+.feet{
+    background-color: #1F2937;
+    height: 75px;
+    width: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.feetext{
+    color: #ffffff;
 }
